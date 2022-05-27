@@ -1,0 +1,16 @@
+.galleryLink{
+    padding: 10px;
+    border: 2px solid lightgray;
+    color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.main{
+    background:darksalmon ;
+    padding: 100px 95px; 
+}
+
+.text{
+    margin-bottom: 40px;  
+}

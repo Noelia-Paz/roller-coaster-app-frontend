@@ -1,0 +1,41 @@
+.coaster-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.coaster-card img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.container-main{
+    background-color: darksalmon;
+    padding: 50px;
+}
+
+.coaster-card h3 {
+    color: black;
+    
+}
+
+.divButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.button{
+    border: 2px solid black;
+    background-color: floralwhite;
+    padding: 7px;
+    border-radius: 10%; 
+}
+
+.buttonBack{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}

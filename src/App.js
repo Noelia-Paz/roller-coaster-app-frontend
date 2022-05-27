@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import IndexPage from "./Pages/IndexPage/IndexPage";
+import CoastersPage from "./Pages/CoastersPage/CoastersPage";
+import CoasterDetails from "./Pages/CoasterDetails/CoasterDetails";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<IndexPage />} />
+        <Route path="/galeria" element={<CoastersPage />} />
+        <Route path="/detalles/:coasters_id" element={<CoasterDetails />} />
+      </Routes>
     </div>
   );
 }
